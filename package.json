@@ -1,0 +1,20 @@
+{
+  "name": "chrome-ext-webpack-template",
+  "version": "1.0.0",
+  "description": "Chrome extension in React!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "start": "webpack --watch --progress --config webpack.config.js"
+  },
+  "author": "Alfredo Tito",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "react": "^18.3.1",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.5.2",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
